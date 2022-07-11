@@ -1,0 +1,120 @@
+body{
+    background-color: aqua;
+}
+
+img{
+    width: 80%;
+    position: relative;
+    opacity: 0.75;
+}
+
+#keyboard{
+    margin-block: 8%;
+    background-color: rgb(212, 229, 17);
+    display: flex;
+    flex-flow: nowrap column;
+    padding: 2%;
+    min-width: 50%;
+    max-width: 80%;
+    border-radius: 20px;
+    margin-inline: auto;
+    box-shadow: 10px 10px rgb(25, 1, 1);
+    transition: 500ms ease-in-out 25ms;
+}
+
+#row{
+    display: flex;
+    flex-flow: nowrap row;
+    align-items: center;
+}
+
+.keys{
+    user-select: none;
+    background-color: rgba(255, 255, 255, 0.553);
+    padding: 1%;
+    margin: 3px;
+    height: 35px;
+    color: rgb(0, 0, 0);
+    border: solid black;
+    border-width: 2px;
+    border-radius: 20px;
+    flex-grow: 1;
+    text-align: center;
+    flex-basis:15px;
+    box-shadow: -2px -2px rgb(9, 0, 0) inset;
+    font-size: x-large;
+    font-family:'Segoe UI';
+}
+
+.keys:hover{
+    flex-grow: 1.2;
+    transform: translateY(-3px);
+    transition: 100ms ease-in-out;
+}
+
+.keys:active{
+    transform: translateY(2px);
+    text-transform:inherit;
+    background-color: rgb(60, 135, 255);
+    box-shadow: 2px 2px #333 inset;
+    color: white;
+}
+
+
+
+
+
+
+#up{
+    position: relative;
+    bottom: 70%;
+    right: 30%;
+    font-weight: bold;
+}
+
+#up2{
+    position: relative;
+    bottom: 40%;
+    right: 50%;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+
+#down{
+    position: relative;
+    top: 45%;
+    right: 25%;
+}
+
+#down2{
+    position: relative;
+    top: 35%;
+    right: 35%;
+    font-size: smaller;
+}
+
+
+
+#stretch{
+    flex-grow: 1.7;
+}
+
+#stretch2{
+    flex-grow: 2;
+}
+
+#stretch3{
+    flex-grow: 3;
+}
+
+#stretch4{
+    flex-grow: 6;
+}
+#stretch5{
+    flex-grow: 20;
+}
+
+#arrow{
+    flex-grow: 0.3;
+}
